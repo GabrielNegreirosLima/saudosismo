@@ -13,7 +13,7 @@ func main() {
 	var sum, age, i int = 0, 1, 0
 
 	for i = 0; age != 0; i++ {
-		fmt.Println("Hello! Enter your age: ")
+		fmt.Print("Hello! Enter your age: ")
 
 		_, err := fmt.Scanf("%d", &age)
 		if err != nil {
